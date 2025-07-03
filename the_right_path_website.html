@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Right Path</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: #f9f9f9;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #00796B;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-style: italic;
+    }
+    nav {
+      background-color: #004D40;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section h2 {
+      border-bottom: 2px solid #00796B;
+      padding-bottom: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #004D40;
+      color: white;
+    }
+    input, textarea, button {
+      padding: 10px;
+      margin: 10px 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .social-share {
+      margin-top: 20px;
+    }
+    .social-share button {
+      margin-right: 10px;
+      background-color: #00796B;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .auth-links {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+    }
+    .auth-links a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="auth-links">
+      <a href="#login">Login</a>
+      <a href="#register">Register</a>
+    </div>
+    <h1>The Right Path</h1>
+    <p>Allah's Guidance will lead you to heaven</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#articles">Articles</a>
+    <a href="#topics">Topics</a>
+    <a href="#contact">Contact</a>
+    <a href="#subscribe">Subscribe</a>
+  </nav>
+  <main>
+    <section id="home" class="section">
+      <h2>Welcome to The Right Path</h2>
+      <p>This platform is dedicated to spreading Islamic wisdom, truth, and positivity in the light of Quran and Sunnah.</p>
+    </section>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>I am a passionate Muslimah on a journey to share the beauty and truth of Islam through insightful articles and reflections.</p>
+    </section>
+    <section id="articles" class="section">
+      <h2>Recent Articles</h2>
+      <article>
+        <h3>Sample Article Title</h3>
+        <p>This is a sample Islamic article description. Articles can explore topics like faith, modesty, dua, Sunnah, and more.</p>
+        <div class="social-share">
+          <button>Share on Facebook</button>
+          <button>Share on Twitter</button>
+        </div>
+        <div class="comments">
+          <h4>Leave a Comment</h4>
+          <textarea placeholder="Write your comment..."></textarea>
+          <button>Submit</button>
+        </div>
+      </article>
+    </section>
+    <section id="topics" class="section">
+      <h2>Topics</h2>
+      <ul>
+        <li>Faith & Belief (Iman)</li>
+        <li>Women in Islam</li>
+        <li>Islamic History</li>
+        <li>Character & Morality</li>
+        <li>Duas & Hadith</li>
+      </ul>
+    </section>
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <section id="subscribe" class="section">
+      <h2>Subscribe to Newsletter</h2>
+      <input type="email" placeholder="Enter your email" />
+      <button>Subscribe</button>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 The Right Path | All rights reserved
+  </footer>
+</body>
+</html>
